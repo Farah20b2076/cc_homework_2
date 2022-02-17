@@ -1,11 +1,14 @@
 import java.util.Scanner;
 public class Hw2
 { public static void main(String[] args){
-		Scanner s = new Scanner(System.in);                         // Irrelevant comments for certain lines
+		Scanner s = new Scanner(System.in);                         // yes!
 		System.out.println("Enter number: ");    
 		int num = s.nextInt();                                      // number.
 		float remainder= num%2;                                     // will it be divisible?
-		if (remainder == 0) {                                       // formatting looks stacked and cramped, could not tell which block of lines are doing what.
+		if (remainder == 0) {                                       
 			System.out.println("The number is divisible by 2");        
 		} else { System.out.println("The number is NOT divisible by 2");  // print time!
 		}}}
+		
+// Irrelevant comments for certain lines, comments are useless, it does not give any relevant information about what the line does.
+// formatting looks stacked and cramped, could not tell which block of lines are doing what.
